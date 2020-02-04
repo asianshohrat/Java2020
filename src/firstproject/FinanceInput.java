@@ -22,6 +22,6 @@ public class FinanceInput {
         float TotalMonth;
         TotalMonth = KB4.nextFloat();
 
-        System.out.format("%.4f Your monthly payment is :\n "+((MSRP*DSK-DWNP)/TotalMonth));
+        System.out.format("Your monthly payment is :\n "+((MSRP*DSK-DWNP)/TotalMonth));
     }
 }
