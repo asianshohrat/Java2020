@@ -7,6 +7,6 @@ public class Receipt {
         System.out.format("\t\t\t\t Rceipt \n");
         System.out.format("\t \t -------------------------\n");
         System.out.format("\t\tItem1 \t: \t $%.2f \n", item1);
-        System.out.format("\t\tItem1 \t: \t $%.2f ", item2);
+        System.out.format("\t\tItem2 \t: \t $%.2f ", item2);
     }
 }

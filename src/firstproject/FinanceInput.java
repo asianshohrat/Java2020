@@ -13,15 +13,15 @@ public class FinanceInput {
         MSRP = KB1.nextFloat();
         System.out.println("Please Enter yor discount %:");
         float discount;
-        discount = KB2.nextFloat();
+        discount = KB1.nextFloat();
         float DSK=(100-discount)/100;
         System.out.println("Please enter down payment :");
         float DWNP;
-        DWNP = KB3.nextFloat();
+        DWNP = KB1.nextFloat();
         System.out.println("Please enter Total Month of loan");
         float TotalMonth;
-        TotalMonth = KB4.nextFloat();
+        TotalMonth = KB1.nextFloat();
 
-        System.out.format("Your monthly payment is :\n "+((MSRP*DSK-DWNP)/TotalMonth));
+        System.out.format(("Your monthly payment is :\n "+((MSRP*DSK-DWNP)/TotalMonth)));
     }
 }
